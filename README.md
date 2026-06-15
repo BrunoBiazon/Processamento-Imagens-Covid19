@@ -29,4 +29,8 @@ https://drive.google.com/drive/folders/1j36FvJGBQjEOhhYOFpWv-9736N-N9Q6o?hl=pt-b
 2. Abra o arquivo `Projeto_Covid.ipynb` no Google Colab.
 3. Conecte sua conta do Google Drive contendo o DataSet disponibilizado.
 4. Ajuste as variáveis `caminho_treino` e `caminho_teste` apontando para os seus diretórios locais.
+  ``` drive.mount('/content/drive'   )
+   caminho_treino = '/content/drive/MyDrive/Projeto_Covid19/covid19/train'
+   caminho_teste ='/content/drive/MyDrive/Projeto_Covid19/covid19/test' 
+   ``` 
 5. Execute a célula.
